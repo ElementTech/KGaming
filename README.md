@@ -51,7 +51,7 @@ The expected output will have two lines you run in your terminal
 
 ```text
 export KUBECONFIG="/tmp/getting-started-gitops"
-aws eks --region us-west-2 update-kubeconfig --name getting-started-gitops
+aws eks --region us-east-1 update-kubeconfig --name getting-started-gitops
 ```
 
 >The first line sets the `KUBECONFIG` environment variable to a temporary file
